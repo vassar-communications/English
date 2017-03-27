@@ -1,0 +1,211 @@
+/*	CONFIG
+	====== */
+/*	TYPOGRAPHY
+	========== */
+/*	LAYOUT
+	====== */
+/* Site breakpoints */
+/* 400px divided by 16px */
+/* 600px divided by 16px */
+/* 800px divided by 16px */
+/* 1000px divided by 16px */
+/* The padding on u-lHeader, u-lMain, u-lFooter, and u-NavSite. */
+/* COLOR
+	====== */
+/* Basic link colors - these colors also affect the Google Search result link colors */
+/* tint($linkColorVisited, 50%) or shade($linkColorVisited, 50%) can be used to lighten or darken hue */
+/* MODULES
+	======== */
+/* Bios */
+/* Breadcrumbs  */
+/* Footer */
+/* Images */
+/*	Google search results  */
+/* Currently being overridden by something in Google's default CSS */
+/* The numbers that represent pages of search results */
+/* Nav */
+/* level 3 covers Level 3 and up. */
+/* LATEST Modules basic */
+/* Use these variables to place a bg color on side news announcement items */
+/* News  */
+/* Not sure all these color settings are necessary
+$u-ArticleListItem__label--type--color:;
+$u-ArticleListItem__label--dateline__posted--color:;
+$u-ArticleListItem__label--dateline__postedDate--color:f; */
+/* LATEST Moved to Module Basic above
+$u-NewsList__itemContainer--margin: 1em 0;
+$u-NewsList__item--background: transparent;
+$u-NewsList__item--padding: 0; */
+/*	Search
+	------ */
+/*	Up until this point, the search box will be positioned
+	over the masthead, so as not to overlap it. This point
+	depends on how wide the site masthead is. Keep increasing it
+	until the search box no longer overlaps the masthead.
+*/
+/*	Mobile search colors
+	-------------------- */
+/*	Mobile menu colors
+	------------------ */
+/* $MenuBtnColor--activated: #000; */
+/*	Mobile search and menu colors
+	----------------------------- */
+/* The background color of a button, when activated */
+/*	Mobile search colors
+	-------------------- */
+/* The background of the "Vassar College" area */
+/* The background of the search and menu buttons */
+/* The color of the search icon and Menu text */
+/* The color of the space between search and menu */
+/* Don't modify these */
+/*	COLOR
+	===== */
+/* line 10, ../sass/color.scss */
+html {
+  background: #0e0e0e url(../images/css/background.jpg) repeat-x;
+  background-size: contain;
+  background-attachment: fixed; }
+
+/* line 15, ../sass/color.scss */
+.u-lHeader,
+.u-lFooter {
+  background: url(../images/css/background.jpg) repeat-x;
+  background-size: contain;
+  background-attachment: fixed; }
+
+/* line 21, ../sass/color.scss */
+body {
+  background: #ede2cb; }
+
+/* line 24, ../sass/color.scss */
+blockquote {
+  margin-left: 0;
+  padding-left: 1em;
+  border-left: 2px solid #ca6; }
+
+/* line 29, ../sass/color.scss */
+.u-NavSite {
+  z-index: 8; }
+
+/* line 32, ../sass/color.scss */
+.u-lMain {
+  z-index: 9; }
+
+/* line 35, ../sass/color.scss */
+.u-lFooter {
+  background: #3d362e;
+  border-bottom: 4px solid #000; }
+
+/* line 42, ../sass/color.scss */
+tbody td, tbody th {
+  border-color: #C4B699; }
+
+/* line 45, ../sass/color.scss */
+tbody tr:nth-child(odd) {
+  background: #DED4BF; }
+
+/*	Search
+	------ */
+/* line 54, ../sass/color.scss */
+.u-Search {
+  background: transparent; }
+
+/* line 57, ../sass/color.scss */
+.u-Search__submit:hover {
+  background: #ca6; }
+
+/* line 60, ../sass/color.scss */
+.u-Search__submit:hover svg {
+  fill: #fff; }
+
+@media all and (min-width: 37.5em) {
+  /* line 65, ../sass/color.scss */
+  .u-Search {
+    border: 1px solid #ca6; } }
+/*	Navigation
+	---------- */
+/* line 73, ../sass/color.scss */
+.u-NavSite {
+  border-right: 1px solid #d4cbb5; }
+
+/* line 76, ../sass/color.scss */
+.u-NavSite__item {
+  color: #607890; }
+
+/* line 79, ../sass/color.scss */
+.u-NavSite__item.u-NavSite__item--isCurrent,
+.u-NavSite__item.u-NavSite__item--isCurrent:visited {
+  color: #a95e4b; }
+
+/* line 83, ../sass/color.scss */
+.u-NavSite__item:visited {
+  color: #607890; }
+
+/* line 86, ../sass/color.scss */
+.u-NavSite__item:hover {
+  color: #B59148; }
+
+/* line 89, ../sass/color.scss */
+.u-NavSite__level--2 {
+  border-left-color: #ca6; }
+
+@media all and (min-width: 37.5em) {
+  /* line 93, ../sass/color.scss */
+  .u-NavSite__level.u-NavSite__level--2 {
+    border-left: 1px solid #d4cbb5; } }
+/*	Masthead
+	-------- */
+/* line 101, ../sass/color.scss */
+.u-Masthead__siteName--link,
+.u-Masthead__siteName--link:visited {
+  color: #ca6; }
+
+/* line 105, ../sass/color.scss */
+.u-Masthead__siteName--link:hover {
+  color: #fff; }
+
+/* line 108, ../sass/color.scss */
+.u-Masthead__vassar--link,
+.u-Masthead__vassar--link:visited {
+  color: #ca6; }
+
+/* line 112, ../sass/color.scss */
+.u-Masthead__vassar--link:hover {
+  color: #fff; }
+
+/*	Modules
+	------- */
+/* line 120, ../sass/color.scss */
+.Module--sidebar .Module__listItem {
+  border-color: #d4cbb5; }
+
+@media all and (min-width: 50em) {
+  /* line 126, ../sass/color.scss */
+  .Module__listItem {
+    border-top: 1px solid #d4cbb5;
+    padding: .3em 0; } }
+/*	Footer
+	------ */
+/* line 136, ../sass/color.scss */
+.u-lFooter {
+  color: #ece1cc; }
+
+/* line 139, ../sass/color.scss */
+.u-lFooter a,
+.u-lFooter a:visited {
+  color: #b6c4ca;
+  background-color: transparent;
+  border-bottom: 1px #63584e solid; }
+
+/* line 145, ../sass/color.scss */
+.u-lFooter a:hover {
+  color: #fff;
+  background-color: #24201d;
+  border-bottom-color: #24201d; }
+
+/*	Requirements
+	------------ */
+/* line 155, ../sass/color.scss */
+#reqs img {
+  width: 20px;
+  border-radius: 10px; }

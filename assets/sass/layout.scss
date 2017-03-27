@@ -1,0 +1,99 @@
+@import "_imports";
+
+
+/*	LAYOUT
+	====== */
+
+html {
+	padding-bottom: 3em;
+}
+body {
+	overflow: hidden;
+}
+.u-lFooter {
+	position: relative;
+	z-index: 10;
+}
+.u-Masthead__vassar {
+}
+.Module__listItem {
+	border: none;
+	padding: .1em 0;
+}
+
+
+
+/*	Navigation
+	---------- */
+
+.u-NavSite__item {
+	margin: 0;
+}
+
+.u-Search {
+	float: right;
+}
+@media all and (min-width: $small) {
+	.u-Masthead__siteName {
+		margin-top: 0;
+	}
+	.u-Search {
+		right: 4%;
+		left: auto;
+		margin-top: 1em;
+		width: 32%;
+	}
+}
+@media all and (min-width: $medium) {
+	.u-NavSite {
+		width: 26%;
+	}
+	.u-lMain {
+		width: 73%;
+	}
+	.u-NavSite,
+	.u-lMain {
+		padding-top: 5%;
+	}
+	.u-lHeader {
+		padding: 2.2em 0 1em 0;
+	}
+	.u-Search {
+		margin-top: 2em;
+	}
+}
+@media all and (min-width: $large) {
+	.u-NavSite {
+		width: 20%;
+	}
+	.u-lMain {
+		width: 79%;
+	}
+	.u-Search {
+		right: 0;
+		width: 24.5%;
+	}
+}
+
+
+/*	News
+	---- */
+
+.u-ArticleListItem {
+	margin-bottom: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

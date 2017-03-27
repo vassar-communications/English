@@ -1,0 +1,170 @@
+@import "_imports";
+
+
+/*	COLOR
+	===== */
+	
+$imagesFolder: "http://localhost:8888/chsilverman/english/assets/images/css";
+$imagesFolder: "../images/css";
+
+html {
+	background: #0e0e0e url(#{$imagesFolder}/background.jpg) repeat-x;
+	background-size: contain;
+	background-attachment: fixed;
+}
+.u-lHeader,
+.u-lFooter {
+	background: url(#{$imagesFolder}/background.jpg) repeat-x;
+    background-size: contain;
+    background-attachment: fixed;
+}
+body {
+	background: #ede2cb;
+}
+blockquote {
+	margin-left: 0;
+	padding-left: 1em;
+	border-left: 2px solid #ca6;
+}
+.u-NavSite {
+	z-index: 8;
+}
+.u-lMain {
+	z-index: 9;
+}
+.u-lFooter {
+	background: #3d362e;
+	border-bottom: 4px solid #000;
+}
+
+
+
+tbody td, tbody th {
+	border-color: #C4B699;
+}
+tbody tr:nth-child(odd) {
+	background: #DED4BF;
+}
+
+
+
+/*	Search
+	------ */
+	
+.u-Search {
+	background: transparent;
+}
+.u-Search__submit:hover {
+	background: #ca6;
+}
+.u-Search__submit:hover svg {
+	fill: #fff;
+}
+
+@media all and (min-width: $small) {
+	.u-Search {
+		border: 1px solid #ca6;
+	}
+}
+
+/*	Navigation
+	---------- */
+
+.u-NavSite {
+	border-right: 1px solid #d4cbb5;
+}
+.u-NavSite__item {
+	color: #607890;
+}
+.u-NavSite__item.u-NavSite__item--isCurrent,
+.u-NavSite__item.u-NavSite__item--isCurrent:visited {
+	color: #a95e4b;
+}
+.u-NavSite__item:visited {
+	color: #607890;
+}
+.u-NavSite__item:hover {
+	color: #B59148;
+}
+.u-NavSite__level--2 {
+	border-left-color: #ca6;
+}
+@media all and (min-width: $small) {
+	.u-NavSite__level.u-NavSite__level--2 {
+		border-left: 1px solid #d4cbb5;
+	}
+}
+
+/*	Masthead
+	-------- */
+
+.u-Masthead__siteName--link,
+.u-Masthead__siteName--link:visited {
+	color: #ca6;
+}
+.u-Masthead__siteName--link:hover {
+	color: #fff;
+}
+.u-Masthead__vassar--link,
+.u-Masthead__vassar--link:visited {
+	color: #ca6;
+}
+.u-Masthead__vassar--link:hover {
+	color: #fff;
+}
+
+
+/*	Modules
+	------- */
+
+.Module--sidebar .Module__listItem {
+	border-color: #d4cbb5;
+}
+
+
+@media all and (min-width: $medium) {
+	.Module__listItem {
+		border-top: 1px solid #d4cbb5;
+		padding: .3em 0;
+	}
+}
+
+
+/*	Footer
+	------ */
+
+.u-lFooter {
+	color: #ece1cc;
+}
+.u-lFooter a,
+.u-lFooter a:visited {
+	color: #b6c4ca;
+	background-color: transparent;
+	border-bottom: 1px #63584e solid;
+}
+.u-lFooter a:hover {
+	color: #fff;
+	background-color: #24201d;
+	border-bottom-color: #24201d;
+}
+
+
+/*	Requirements
+	------------ */
+
+#reqs img {
+	width: 20px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,250 @@
+/*	CONFIG
+	====== */
+/*	TYPOGRAPHY
+	========== */
+/*	LAYOUT
+	====== */
+/* Site breakpoints */
+/* 400px divided by 16px */
+/* 600px divided by 16px */
+/* 800px divided by 16px */
+/* 1000px divided by 16px */
+/* The padding on u-lHeader, u-lMain, u-lFooter, and u-NavSite. */
+/* COLOR
+	====== */
+/* Basic link colors - these colors also affect the Google Search result link colors */
+/* tint($linkColorVisited, 50%) or shade($linkColorVisited, 50%) can be used to lighten or darken hue */
+/* MODULES
+	======== */
+/* Bios */
+/* Breadcrumbs  */
+/* Footer */
+/* Images */
+/*	Google search results  */
+/* Currently being overridden by something in Google's default CSS */
+/* The numbers that represent pages of search results */
+/* Nav */
+/* level 3 covers Level 3 and up. */
+/* LATEST Modules basic */
+/* Use these variables to place a bg color on side news announcement items */
+/* News  */
+/* Not sure all these color settings are necessary
+$u-ArticleListItem__label--type--color:;
+$u-ArticleListItem__label--dateline__posted--color:;
+$u-ArticleListItem__label--dateline__postedDate--color:f; */
+/* LATEST Moved to Module Basic above
+$u-NewsList__itemContainer--margin: 1em 0;
+$u-NewsList__item--background: transparent;
+$u-NewsList__item--padding: 0; */
+/*	Search
+	------ */
+/*	Up until this point, the search box will be positioned
+	over the masthead, so as not to overlap it. This point
+	depends on how wide the site masthead is. Keep increasing it
+	until the search box no longer overlaps the masthead.
+*/
+/*	Mobile search colors
+	-------------------- */
+/*	Mobile menu colors
+	------------------ */
+/* $MenuBtnColor--activated: #000; */
+/*	Mobile search and menu colors
+	----------------------------- */
+/* The background color of a button, when activated */
+/*	Mobile search colors
+	-------------------- */
+/* The background of the "Vassar College" area */
+/* The background of the search and menu buttons */
+/* The color of the search icon and Menu text */
+/* The color of the space between search and menu */
+/* Don't modify these */
+/*	TYPOGRAPHY
+	========== */
+/* Elements */
+/* line 9, ../sass/typography.scss */
+html {
+  font-family: "calluna"; }
+
+/* line 12, ../sass/typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+  margin-bottom: 0.168em;
+  margin-top: 0; }
+
+/* line 17, ../sass/typography.scss */
+h1 {
+  font-size: 2em;
+  font-weight: 100; }
+
+/* line 21, ../sass/typography.scss */
+h2 {
+  font-size: 2.2em;
+  margin-top: 0;
+  position: relative;
+  margin-bottom: .5em;
+  font-weight: 100;
+  line-height: 1; }
+
+/* line 29, ../sass/typography.scss */
+h3 {
+  font-family: "azo-sans-web", Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: .25em; }
+
+/* line 35, ../sass/typography.scss */
+h4 {
+  font-family: "calluna";
+  font-size: 1.1em;
+  font-weight: bold; }
+
+/* line 40, ../sass/typography.scss */
+h5 {
+  font-size: .9em;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-family: "calluna";
+  letter-spacing: 1px; }
+
+/* line 47, ../sass/typography.scss */
+h6 {
+  font-size: .8em; }
+
+/* line 51, ../sass/typography.scss */
+.u-lContent {
+  font-size: 1.1em;
+  font-family: "calluna";
+  font-weight: 300;
+  line-height: 1.4;
+  margin-bottom: 1.25em; }
+
+/* line 58, ../sass/typography.scss */
+blockquote {
+  font-size: .9em; }
+
+/* line 61, ../sass/typography.scss */
+ul,
+ol {
+  margin: .64em 0; }
+
+/* line 65, ../sass/typography.scss */
+p {
+  margin-top: 0;
+  line-height: 1.45; }
+
+/* line 70, ../sass/typography.scss */
+.u-biosInner .u-pageTitle {
+  margin-bottom: .1em; }
+
+/*	Schmancy drop-cap
+
+.u-lContent p:first-of-type:first-letter {
+	color: #936153;
+	border: 1px solid #936153;
+	font-size: 4em;
+	float: left;
+	line-height: 1;
+	padding: .125em;
+	margin-right: .25em;
+}
+.u-pageHome p:first-of-type:first-letter {
+	font-size: 3em;
+}
+
+/*	No drop-caps on the following:
+
+.u-lContent {
+	p.u_Article__postedBy:first-letter,
+	p.entry-summary:first-letter {
+		font-size: 1em;
+		border: none;
+		color: #444;
+		margin: 0;
+		padding: 0;
+		float: none;
+	}
+}
+*/
+/* line 105, ../sass/typography.scss */
+th {
+  font-weight: bold; }
+
+/* line 109, ../sass/typography.scss */
+td {
+  font-weight: 300; }
+
+/* line 113, ../sass/typography.scss */
+li {
+  margin: 0 0 0.327em; }
+
+/* Main page content */
+/* line 119, ../sass/typography.scss */
+.u-lMain {
+  font-size: 100%; }
+
+/* u-lAside sidebar styles */
+/* line 127, ../sass/typography.scss */
+.u-lAside h1 {
+  font-size: 1.953em; }
+/* line 131, ../sass/typography.scss */
+.u-lAside h2 {
+  font-size: 1.562em; }
+/* line 135, ../sass/typography.scss */
+.u-lAside h3 {
+  font-size: 1.25em; }
+/* line 139, ../sass/typography.scss */
+.u-lAside h4 {
+  font-size: 1.143em; }
+/* line 143, ../sass/typography.scss */
+.u-lAside h5 {
+  font-size: 1.093em; }
+/* line 147, ../sass/typography.scss */
+.u-lAside p,
+.u-lAside ol,
+.u-lAside ul {
+  font-size: .95em;
+  line-height: 1.2;
+  font-weight: normal;
+  font-family: "azo-sans-web", Helvetica, Arial, sans-serif; }
+/* line 156, ../sass/typography.scss */
+.u-lAside ul,
+.u-lAside ol {
+  margin-bottom: 0.64em; }
+/* line 161, ../sass/typography.scss */
+.u-lAside li {
+  margin-bottom: 0.327em;
+  line-height: 1.2; }
+
+/* line 167, ../sass/typography.scss */
+.intro {
+  font-size: 1.2em;
+  line-height: 1.4; }
+
+/*	Tables
+	------ */
+/* line 176, ../sass/typography.scss */
+th {
+  text-align: left;
+  line-height: 1.2;
+  font-family: "azo-sans-web", Helvetica, Arial, sans-serif;
+  font-size: .86em; }
+
+/*	Navigation
+	---------- */
+/* line 187, ../sass/typography.scss */
+.u-NavSite__item.u-NavSite__item--isCurrent,
+.u-NavSite__item.u-NavSite__item--isCurrent:visited {
+  font-weight: bold; }
+
+/* line 191, ../sass/typography.scss */
+.u-NavSite__level--2 .u-NavSite__item {
+  padding: .2em 0 !important; }
+
+/*	Masthead
+	-------- */
+/*	Footer
+	------ */
+/* line 203, ../sass/typography.scss */
+.u-VCard--site .u-VCard__item, .u-VCard--site .u-VCard__info, .u-VCard--site .u-List--site, .u-VCard--site .u-List__item {
+  font-size: ".9rem";
+  font-size: .9rem; }
