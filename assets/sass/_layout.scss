@@ -42,7 +42,7 @@ body {
 		left: auto;
 		margin-top: 1em;
 		width: 32%;
-	}
+	}    
 }
 @media all and (min-width: $medium) {
 	.u-NavSite {
@@ -61,6 +61,12 @@ body {
 	.u-Search {
 		margin-top: 2em;
 	}
+    
+    .gf- .PageContent
+    {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
 }
 @media all and (min-width: $large) {
 	.u-NavSite {
@@ -73,8 +79,21 @@ body {
 		right: 0;
 		width: 24.5%;
 	}
+
+    .gf- .u-lContent
+    {
+        padding-right: 5%;
+    }
 }
 
+@media screen and (min-width: 79em)
+{
+    .gf- .PageContent
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
 /*	News
 	---- */

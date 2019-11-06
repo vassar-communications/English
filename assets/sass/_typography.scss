@@ -201,7 +201,8 @@ th {
 	------ */
 
 .u-VCard--site .u-VCard__item, .u-VCard--site .u-VCard__info, .u-VCard--site .u-List--site, .u-VCard--site .u-List__item {
-	@include v-pixel-fallback("font-size", ".9rem");
+    font-size: 1rem;
+	//@include v-pixel-fallback("font-size", "1rem");
 }
 
 

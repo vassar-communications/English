@@ -12,15 +12,35 @@ html {
 	background-size: contain;
 	background-attachment: fixed;
 }
+
 .u-lHeader,
 .u-lFooter {
 	background: url(#{$imagesFolder}/background.jpg) repeat-x;
     background-size: contain;
     background-attachment: fixed;
 }
+
 body {
 	background: #ede2cb;
 }
+
+html.gf-
+{
+	background: 0;
+}
+
+.gf- body
+{
+	background: #0e0e0e url(#{$imagesFolder}/background.jpg) repeat-x;
+	background-size: contain;
+	background-attachment: fixed;
+}
+
+.gf- .PageContent
+{
+	background: #ede2cb;
+}
+
 blockquote {
 	margin-left: 0;
 	padding-left: 1em;
